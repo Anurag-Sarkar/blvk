@@ -1,0 +1,165 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body,html{
+    width: 100%;
+    height:100%;
+}
+#main{
+    display: flex;
+    width: 100%;
+    height:100%
+}
+.slide{
+    width: 50%;
+    height: 100%;
+}
+#one{
+    background-color: #202329;
+}
+#two{
+    background-color: #2B3138;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    padding:50px 100px;
+}
+h2 {
+    color: #F2D9BD;
+    letter-spacing: 4px;
+    font-weight: 400;
+    font-size: 17px;
+}
+h2 span{
+    color: #FE662A;
+}
+#one h1{ 
+    margin-left: 15rem;
+    margin-top:12rem ;
+    color:#F2D9BD;
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 90px;
+}
+#box{
+    margin-top: 150px;
+    padding-top: 50px;
+    padding-left:130px ;
+    padding-bottom:1px;
+    width: 32%;
+    height: 200px;
+    background-color: #2B3138;
+}
+#box h3{
+    color: #f2d9bdbb;
+    font-weight: 100;
+    font-size: 15px;
+    letter-spacing: 2px;
+    
+}
+#box h4{
+    letter-spacing: 2px;
+    color: #F2D9BD;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom:10px;  
+}
+#content{
+position: absolute;
+ /* width: 100%;
+ height: 100%; */
+}
+#explore{
+    padding-top: 3PX;
+    padding-left: 160px;
+    width: 20%;
+    height: 25px;
+    background-color: #FE662A;
+    margin-top: 100px;
+}
+#cont{
+    position: absolute;
+}
+h5{letter-spacing: 2px;
+    color: #F2D9BD;
+}
+
+#design{
+    position: relative;
+    margin-top: 520px;
+    margin-bottom: 200px;
+    width: 37.9%;
+    height: 200px;
+    padding-right: 200px;
+    margin-left: 576px;
+    background-color: #202329;
+}   
+#stuff{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right:30%;
+    top: 25%;
+}
+p.design{
+    color: #F2D9BD;
+    font-size: 20px;
+    padding-bottom: 20px;    
+}
+p.c{
+    color: #f2d9bd94;
+    font-size: 15px;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+#blvck{
+    position: absolute;
+    left: 47.5%;
+    top: -4%;
+}
+p.blck{
+    color: #20232991;
+    font-size: 12em;
+    line-height: 170px;
+    font-weight: 600;
+}
+i{
+    font-size: 30px;
+}
+i.arr{
+    color: #F2D9BD;
+    right: 5%;
+    top: 65%;
+    position: absolute;
+}
+p.credit{
+    color: #F2D9BD;
+    bottom :8%;
+    right:4%;
+    position: absolute;
+}
+#image{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    z-index: 9;
+}
+img{
+    height:55em;
+}
+#circle{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border: #FE662A solid 10px ;
+    border-radius: 200px;
+    top: 11%;
+    left:52%
+}
